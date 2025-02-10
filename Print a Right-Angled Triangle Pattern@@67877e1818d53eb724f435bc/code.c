@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main(){
-    int a;
+    int a,c;
     scanf("%d",&a);
     while(a>0){
-        for(int b = 0;a>b;b++){
+        for(int b = 0;c>b;b++){
             printf("* ");
         }
+    c++;
     a--;
     printf("\n");
     } 
