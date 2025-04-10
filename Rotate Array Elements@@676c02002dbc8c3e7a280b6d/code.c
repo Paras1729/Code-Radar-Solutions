@@ -11,7 +11,7 @@ int main(){
         b = 0;
     }
     scanf("%d",&c);
-    i = 0;
+    int i = 0;
     for (int j = c; j<a; j++){
         scanf("%d",&b);
         arr1[i] = arr[j];
@@ -23,5 +23,8 @@ int main(){
         arr1[i] = arr[k];
         b = 0;
         i++;
+    }
+    for (int m = 0 ; m < a ; m++){
+        printf("%d\n",arr1[m]);
     }
 }
