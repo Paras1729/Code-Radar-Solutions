@@ -12,14 +12,14 @@ int main(){
     }
     scanf("%d",&c);
     int i = 0;
-    for (int j = c; j<a; j++){
+    for (int j = c-1; j<a; j++){
         scanf("%d",&b);
         arr1[i] = arr[j];
         b = 0;
         i++;
         d = j;
     }
-    for (int k = 0 ; k< d ; k++){
+    for (int k = 0 ; k < d ; k++){
         scanf("%d",&b);
         arr1[i] = arr[k];
         b = 0;
