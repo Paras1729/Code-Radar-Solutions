@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a,b,c;
+    int a,b,c,d;
     scanf("%d",&a);
     int arr[a];
     int arr1[a];
@@ -17,8 +17,9 @@ int main(){
         arr1[i] = arr[j];
         b = 0;
         i++;
+        d = j;
     }
-    for (int k = 0 ; k<j ; k++){
+    for (int k = 0 ; k< d ; k++){
         scanf("%d",&b);
         arr1[i] = arr[k];
         b = 0;
